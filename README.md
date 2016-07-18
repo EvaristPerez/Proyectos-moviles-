@@ -15,7 +15,7 @@ Conjunto de proyectos realizados para dispositivos móviles por Evarist Pérez.
   **3. Proyecto COCOS-X (Back to the jump)**
   
     Videojuego del género runner realizado con Cocos 2D-x en el que el jugador debe utilizar su habilidad 
-    superar los distintos niveles existentes, saltando o agachándose según corresponda.
+    superar los distintos niveles existentes, saltando o agachándose según corresponda. Es un proyecto realizado en grupo junto a Juan Pomares y Jorge Hernández.
     
   **4. Proyecto OpenGL ES**
   
