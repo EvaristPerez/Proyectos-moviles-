@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/crearBackUp" android:title="Crear backup"
+    android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/restaurarBackUp" android:title="Restaurar backup"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/gestionUsuario" android:title="Gestión de usuarios"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/configuracion" android:title="Configuración"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

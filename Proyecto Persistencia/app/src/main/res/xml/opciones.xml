@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Preferencias">
+        <EditTextPreference
+            android:key="NombreFichero"
+            android:title="Nombre de la base de datos"
+            android:dialogTitle="Nombre de la BD"
+            android:inputType="text">
+        </EditTextPreference>
+        <ListPreference
+            android:key="LugarGuardar"
+            android:title="Lugar de guardado"
+            android:entries="@array/listaSitios"
+            android:entryValues="@array/listaSitios" />
+        <ListPreference
+            android:key="VersionBD"
+            android:title="Versión BD"
+            android:entries="@array/listaV"
+            android:entryValues="@array/listaV" />
+        <EditTextPreference
+            android:key="SMS"
+            android:title="Teléfono remitente"
+            android:dialogTitle="Teléfono remitente"
+            android:inputType="number"
+            android:maxLength="9">
+        </EditTextPreference>
+    </PreferenceCategory>
+</PreferenceScreen>

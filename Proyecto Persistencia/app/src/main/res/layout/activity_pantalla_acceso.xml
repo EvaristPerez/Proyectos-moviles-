@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="es.ua.eps.java.ejerciciosqlite.pantallaAcceso">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido: "
+        android:textSize="20dp"
+        android:id="@+id/textoBienvenido"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="55dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario: "
+        android:textSize="20dp"
+        android:id="@+id/textoUsuario"
+        android:layout_marginTop="72dp"
+        android:layout_below="@+id/textoBienvenido"
+        android:layout_alignLeft="@+id/textoBienvenido"
+        android:layout_alignStart="@+id/textoBienvenido" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:textSize="20dp"
+        android:id="@+id/textoEmail"
+        android:layout_marginTop="72dp"
+        android:layout_below="@+id/textoUsuario"
+        android:layout_alignLeft="@+id/textoUsuario"
+        android:layout_alignStart="@+id/textoUsuario"
+        android:visibility="invisible"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salir"
+        android:id="@+id/salir"
+        android:layout_marginBottom="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
