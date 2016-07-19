@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/mensaje"
+    android:layout_marginLeft="60dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="5dp"
+    android:paddingRight="5dp"
+    android:layout_alignParentRight="true"
+    android:paddingBottom="5dp"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/texto_enviado"
+        android:text="Nombre : "
+        android:id="@+id/nombre"
+        android:layout_marginLeft="5dp"
+        android:textColor="#9922ff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/texto_recibido"
+        android:text="HOLAAAA"
+        android:background="@drawable/mensaje"
+        android:id="@+id/mensaje"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/hora"
+        android:layout_gravity="right"
+        android:textColor="#222222"/>
+
+</LinearLayout>
