@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Radio exterior: "
+    android:id="@+id/textRadio"
+    android:textSize="24dp"
+    android:layout_marginTop="142dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/textRadio"
+        android:layout_margin="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/editTextToro1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Radio interior: "
+        android:id="@+id/textRadio2"
+        android:textSize="24dp"
+        android:layout_below="@+id/editText"
+        android:layout_alignRight="@+id/textRadio"
+        android:layout_alignEnd="@+id/textRadio" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/textRadio2"
+        android:layout_margin="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/editTextToro2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp" />
+
+</RelativeLayout><!-- From: file:/Users/mastermoviles/Desktop/Proyectos%20gráficos/Cuádricas/app/src/main/res/layout/layout_toroide.xml -->
