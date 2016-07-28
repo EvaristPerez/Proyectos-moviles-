@@ -1,38 +1,36 @@
-# Proyectos-moviles-
-Conjunto de proyectos realizados para dispositivos móviles por Evarist Pérez.
+# Mobile projects
+Projects for mobile devices by Evarist Pérez.
 
-  **1. Proyecto Chat**
+  **1. Chat project**
   
-    Aplicación cliente/servidor que comunica dos móviles dentro de una red WIFI para el envío de 
-    mensajes y archivos utilizando sockets.
+    Client/server application that connects two phones in a WIFI network for sending messages and files 
+    using sockets.
     
-  **2. Proyecto Persitencia (Content provider)**
+  **2. Persistence project  (Content provider)**
     
-    Aplicación de gestión de usuarios y accesos privados en el que podemos configurar la ubicación de 
-    los backups, tener un control de versiones de la base de datos y un sistema de verificación vía SMS.
+    Application for managing users with private access where we can set the location of the backups, have 
+    a versión control database and a verification system via SMS.
     
     
-  **3. Proyecto COCOS-X (Back to the jump)**
+  **3. Cocos2d-x project  (Back to the jump)**
   
-    Videojuego del género runner realizado con Cocos 2D-x en el que el jugador debe utilizar su habilidad 
-    superar los distintos niveles existentes, saltando o agachándose según corresponda. Es un proyecto 
-    realizado en grupo junto a Juan Pomares y Jorge Hernández.
+   Runner game made with Cocos2d-x in which the player must use his skill to complete the different 
+   existing levels, jumping or sliding as appropriate. It is a project group with Juan Pomares
+   and Jorge Hernandez.    
     
-  **4. Proyecto OpenGL ES**
+  **4. OpenGL ES project**
   
-    Proyecto compuesto por dos partes: en primer lugar una aplicación que dibuja esferas, toroides 
-    y supercuádricas, según los parámetros introducidos por el usuario y otra app, en la que podemos 
-    controlar a un tanque.
+    The project has two parts: an application that draws spheres, toroids and super quadrics, according 
+    to the parameters entered by the user and the another app allows us control a tank.
     
-  **5. Proyecto Unity (Still Alive)**
+  **5. Unity project  (Still Alive)**
   
-    Videojuego desarrollo con Unity que integra servicios como Facebook (posibilidad de compartir) o 
-    logros que el usuario puede desbloquear a través de Google Play Games.
+   Video game developed with Unity that integrates services such as Facebook (possibility of sharing) 
+   or achievements that the user can unlock through Google Play Games.
     
-  **6. Proyecto REST**
+  **6. REST project**
   
-    Proyecto en el que utilizando servicios REST se simula el comportamiento de un videoclub (alquiler, 
-    devolución, altas, bajas...).
+    This project simulates a videoclub using REST services. For example we can rent, delete or create films.
 
 
 
