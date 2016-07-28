@@ -14,9 +14,9 @@ Projects for mobile devices by Evarist Pérez.
     
   **3. Cocos2d-x project  (Back to the jump)**
   
-   Runner game made with Cocos2d-x in which the player must use his skill to complete the different 
-   existing levels, jumping or sliding as appropriate. It is a project group with Juan Pomares
-   and Jorge Hernandez.    
+    Runner game made with Cocos2d-x in which the player must use his skill to complete the different 
+    existing levels, jumping or sliding as appropriate. It is a project group with Juan Pomares
+    and Jorge Hernandez.    
     
   **4. OpenGL ES project**
   
@@ -25,8 +25,8 @@ Projects for mobile devices by Evarist Pérez.
     
   **5. Unity project  (Still Alive)**
   
-   Video game developed with Unity that integrates services such as Facebook (possibility of sharing) 
-   or achievements that the user can unlock through Google Play Games.
+    Video game developed with Unity that integrates services such as Facebook (possibility of sharing) 
+    or achievements that the user can unlock through Google Play Games.
     
   **6. REST project**
   
